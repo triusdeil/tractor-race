@@ -55,7 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Roads\Scripts\MakeSomeNoice.cs" />
      <Compile Include="Assets\Roads\Scripts\WaterPlaneGen.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/trius/Documents/GitHub/tractor-race/TractorRace/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
