@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class CamFollowPlayer : MonoBehaviour
 {
-    public Transform cameraTarget;
-    public float sSpeed = 10.0f;
-    public Vector3 dist;
-    public Transform lookTarget;
+    public GameObject TheCar;
+    public float CarX;
+    public float CarY;
+    public float CarZ;
 
-    void FixedUpdate() {
-        Vector3 dPos = cameraTarget.position + dist;
-        Vector3 sPos = Vector3.Lerp(transform.position,dPos,sSpeed * Time.deltaTime);
-        transform.position = sPos;
-        transform.LookAt(lookTarget.position);    
+    void Update(){
+        CarX = TheCar.transform.eulerAngles.x;
+        CarY = TheCar.transform.eulerAngles.y;
+        CarZ = TheCar.transform.eulerAngles.z;
+
+        transform.eulerAngles = new Vector3(CarX - CarX, CarY ,CarZ - CarZ);
     }
 }
