@@ -56,6 +56,8 @@
      <Compile Include="Assets\Roads\Scripts\MakeSomeNoice.cs" />
      <Compile Include="Assets\Roads\Scripts\WaterPlaneGen.cs" />
      <Compile Include="Assets\Scripts\CamFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\CarControlActive.cs" />
+     <Compile Include="Assets\Scripts\Countdown.cs" />
      <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
      <Compile Include="Assets\Scripts\LapComplete.cs" />
      <Compile Include="Assets\Scripts\LapTimeManager.cs" />
