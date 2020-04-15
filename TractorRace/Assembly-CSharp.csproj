@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Roads\Scripts\MakeSomeNoice.cs" />
      <Compile Include="Assets\Roads\Scripts\WaterPlaneGen.cs" />
+     <Compile Include="Assets\Scripts\CameraChange.cs" />
      <Compile Include="Assets\Scripts\CamFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\CarControlActive.cs" />
      <Compile Include="Assets\Scripts\Countdown.cs" />
