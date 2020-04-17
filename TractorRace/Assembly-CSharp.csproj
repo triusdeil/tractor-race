@@ -58,10 +58,12 @@
      <Compile Include="Assets\Scripts\ButtonOptions.cs" />
      <Compile Include="Assets\Scripts\CameraChange.cs" />
      <Compile Include="Assets\Scripts\CamFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\CarChoice.cs" />
      <Compile Include="Assets\Scripts\CarControlActive.cs" />
      <Compile Include="Assets\Scripts\Countdown.cs" />
      <Compile Include="Assets\Scripts\DreamCar01.cs" />
      <Compile Include="Assets\Scripts\FinishRotate.cs" />
+     <Compile Include="Assets\Scripts\GlobalTractor.cs" />
      <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
      <Compile Include="Assets\Scripts\LapComplete.cs" />
      <Compile Include="Assets\Scripts\LapTimeManager.cs" />
@@ -69,6 +71,7 @@
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Path.cs" />
      <Compile Include="Assets\Scripts\RaceFinish.cs" />
+     <Compile Include="Assets\Scripts\TractorChoice.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/trius/Documents/GitHub/tractor-race/TractorRace/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
