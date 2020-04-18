@@ -13,6 +13,11 @@ public class RaceFinish : MonoBehaviour
     public AudioSource FinishMusic;
 
      void OnTriggerEnter() {
+         if (ModeTime.isTimeMode == true)
+         {
+             
+         }else
+         {
          this.GetComponent<BoxCollider>().enabled = false;
          MyCar.SetActive (false);
          CompleteTrig.SetActive(false);
@@ -21,5 +26,7 @@ public class RaceFinish : MonoBehaviour
          FinishCam.SetActive(true);
          ViewModes.SetActive(false);
         FinishMusic.Play();
+         }
+         
      }
 }
